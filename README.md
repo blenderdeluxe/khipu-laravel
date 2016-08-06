@@ -13,7 +13,7 @@ This project is based on the amazing guys of Tifón and Freshwork Studio.
 ### Step 1: Install Through Composer
 
 ```
-composer require freshworkstudio/khipu-laravel
+composer require blenderdeluxe/khipu-laravel
 ```
 
 ### Step 2: Add the Service Provider
