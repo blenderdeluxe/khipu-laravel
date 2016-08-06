@@ -42,7 +42,7 @@ In the `app/config/app.php` file, add the following to the `aliases`  array:
 
 
 ```sh
-$ pa vendor:publish --provider="BlenderDeluxe\LaravelKhipu\KhipuServiceProvider"
+$ php artisan vendor:publish --provider="BlenderDeluxe\LaravelKhipu\KhipuServiceProvider"
 ```
 
 ### Step 4: Configure your .env or edit you brand new `config/khipu.php`
