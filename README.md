@@ -22,7 +22,7 @@ In the `app/config/app.php` file, add the following to the `providers`  array:
 ```php
 'providers' => array(
     …
-    'BlenderDeluxe\LaravelKhipu\KhipuServiceProvider',
+    BlenderDeluxe\LaravelKhipu\KhipuServiceProvider::class,
     …
 ),
 ```
@@ -33,7 +33,7 @@ In the `app/config/app.php` file, add the following to the `aliases`  array:
 ```php
 'aliases' => array(
     …
-    'Khipu' => 'BlenderDeluxe\LaravelKhipu\Facades\Khipu',
+    'Khipu' => BlenderDeluxe\LaravelKhipu\Facades\Khipu::class,
     …
 ),
 ```
